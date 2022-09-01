@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     extend: {},
     backgroundImage: {
-      'homepage': "url('src/components/imgs/background/landingimage.png')",
+      'wagon': "url('src/components/imgs/sportwagon.png')",
+      'landing': "url('/Users/ecom/creativeoutdoorlanding/src/components/imgs/landingimage.png')",
     },
     fontFamily: {
       'roboto': ['"Roboto"', 'sans-serif'],
