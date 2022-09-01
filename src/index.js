@@ -6,13 +6,13 @@ import {
   Route,
 } from "react-router-dom";
 import './index.css';
-import Gamelist from './routes/Gamelist'
+import Landing from './routes/Landingpage'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Gamelist />} />
+      <Route path="/" element={<Landing />} />
     </Routes>
   </BrowserRouter>
 );

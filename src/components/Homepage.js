@@ -1,11 +1,20 @@
 import React from 'react'
 
-export default function Pinballgame() {
+import Logo from './imgs/logo.png'
+
+export default function Homepage() {
     return (
-        <div class="bg-landing bg-cover h-screen w-screen flex">
-            <div class="w-screen md:w-screen md:max-w-screen-2xl m-auto md:m-auto select-none">
-                <div class="text-center font-bebas text-7xl">
-                    <h1 class="text-white drop-shadow-2xl"> Creative Outdoor Distributor</h1>
+        <div class="bg-cover h-screen w-screen">
+            <div class="md:mx-auto h-screen flex">
+                <div class="text-center text-white mx-auto font-bebas">
+                    <img src={Logo} class="m-auto md:ml-2 h-44 md:h-56"/>
+                    <div class="md:w-screen m-auto md:m-auto">
+                        <div class="m-auto mt-0 sm:mt-44 md:mt-44 lg:mt-96">
+                        <span class="m-auto text-5xl md:text-7xl drop-shadow-2xl">Market leader</span>
+                        <br></br>
+                        <span class="m-auto text-4xl md:text-7xl drop-sahdow-2xl">Outdoor lifestyle products </span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
