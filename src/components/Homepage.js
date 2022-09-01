@@ -10,9 +10,9 @@ export default function Homepage() {
                     <img src={Logo} class="m-auto md:ml-2 h-44 md:h-56"/>
                     <div class="md:w-screen m-auto md:m-auto">
                         <div class="m-auto mt-0 sm:mt-44 md:mt-44 lg:mt-96">
-                        <span class="m-auto text-5xl md:text-7xl drop-shadow-2xl">Market leader</span>
+                        <span class="m-auto text-5xl md:text-7xl drop-shadow-lg">Market leader</span>
                         <br></br>
-                        <span class="m-auto text-4xl md:text-7xl drop-sahdow-2xl">Outdoor lifestyle products </span>
+                        <span class="m-auto text-4xl md:text-7xl drop-shadow-lg">Outdoor lifestyle products </span>
                         </div>
                     </div>
                 </div>
